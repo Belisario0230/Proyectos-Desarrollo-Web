@@ -1,0 +1,95 @@
+/* Otros contenedores y etiquetas */
+/* Establecer fondo gris claro */
+body {
+    background-color: #e2daf2; /* Fondo gris claro */
+    font-family:'Arial Narrow Bold', sans-serif;
+  }
+
+header  {
+    background-color: #d9ebf2; /* Fondo gris claro */
+    padding: 30px;
+  }
+  
+  /* Centrar las secciones */
+  main {
+    text-align: center; /* Centrar contenido en el main */
+  }
+  
+  /* Otros contenedores y etiquetas */
+  section {
+    margin-bottom: 30px;
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    padding: 20px; /* Agregar relleno dentro de las secciones */
+    border-radius: 8px; /* Agregar bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+  }
+  
+  /* Títulos sin margen */
+  h1{
+    text-align: center;
+  }
+  h2 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-bottom: 15px; /* Relleno entre h2 y la lista ordenada */
+  }
+  
+  ul, ol {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Aumentamos el margen entre elementos de la lista */
+  }
+  
+  /* Estilo de la forma */
+form {
+    display: flex; /* Cada elemento al lado */
+    flex-direction: column; /* Cada elemento ocupa toda la columna */
+    max-width: 300px; /* Ancho máximo de columna */
+    margin: 0 auto; /* Centrar horizontalmente el formulario */
+    margin-top: 10px;
+  }
+  
+  /* Resto del CSS ... */
+  
+  
+  label {
+    margin-bottom: 10px; /* Aumentamos el margen entre etiquetas */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    padding: 10px; /* Aumentamos el relleno */
+    margin-bottom: 10px;
+    border: 1px solid #bbdaa4; /* Agregamos un borde para mayor claridad */
+  }
+  
+  input[type="submit"] {
+    background-color:#4a80f5;
+    color: white;
+    border: none;
+    cursor: pointer; /* Cambia la forma del cursor al pasar el cursor por encima */
+    padding: 10px 20px; /* Aumentamos el relleno */
+  }
+  
+  select {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #d9ebf2;
+    color: black;
+    padding: 20px 0; /* Ajusta el relleno superior e inferior */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; /* Ajusta el ancho máximo */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
