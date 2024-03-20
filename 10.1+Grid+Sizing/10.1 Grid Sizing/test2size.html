@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto Size Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: repeat(3,100px);
+            grid-template-columns: repeat(2,100px);
+            grid-auto-rows: 400px 400px;
+            background-color: none;
+        }
+        
+        .uno{
+            background-color: yellow;
+            border-radius: 10px;
+            border: solid; color: black;
+        }
+
+        .dos{
+            background-color: blue;
+            border-radius: 10px;
+            border: solid; color: black;
+        }
+
+        .tres{
+            background-color: red;
+            border-radius: 10px;
+            border: solid; color: black;
+        }
+
+        .cuatro{
+            background-color: green;
+            border-radius: 10px;
+            border: solid; color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="uno"> Div 1</div>
+        <div class="dos"> Div 2</div>
+        <div class="tres"> Div 3</div>
+        <div class="cuatro"> Div 4</div>
+        <div class="tres"> Div 5</div>
+        <div class="cuatro"> Div 6</div>
+    </div>
+</body>
+</html>
